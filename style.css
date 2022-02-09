@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.header {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0;
+    margin:0;
+    border: 0;
+    font-size: 24px;
+    gap: 100px;
+    padding: 0 300px 100px 300px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navbar div {
+    font-weight: 700;
+}
+.navbar a {
+    font-weight: 400;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+.header a, p {
+    font-size: 18px;
+}
+h3 {
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.headerImg {
+    display: flex;
+    gap: 50px;
+}
+.headerImg img {
+    display: flex;
+    width: 494px;
+    height: auto;
+}
+.headerIntro {
+    display: flex;
+    flex-direction: column;
+}
+.header h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button1 {
+    background: #3882f6;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.container h4{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.containerImgs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.containerImgs img {
+    width: 240px;
+    height: auto;
+    border-radius: 5px;
+}
+.containerImgs div {
+    text-align: center;
+    width: 240px;
+}
+.containerQuote {
+    background: #e5e7eb;
+    color: #1f2937;
+}
+
+.containerQuote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    margin: 0 350px 0 350px;
+    padding-top: 70px;
+}
+.containerQuote figcaption {
+    margin-right: 350px;
+    text-align: right;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+.containerBoxBackground {
+    padding: 60px 400px 60px 400px;
+}
+.containerBox {
+    display: flex;
+    gap: 150px;
+    background: #3882f6;
+    border-radius: 5px;
+    padding: 40px 40px 40px 80px;
+}
+.containerBox div {
+    color: #f9faf8;
+}
+.containerBox div .bold {
+    font-size: 20px;
+    font-weight: 700;
+}
+.button2 {
+    border: 1px solid #f9faf8;
+    background: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    cursor: pointer;
+    font-weight: 700;
+    height: auto;
+    width: 100px;
+    margin: 5px 0 5px 0;
+}
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
